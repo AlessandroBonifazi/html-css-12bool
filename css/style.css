@@ -1,8 +1,5 @@
 /* Generics */
 [class*="col-"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: white;
     font-weight: 600;
 }
@@ -17,7 +14,7 @@
 }
 
 .bg-green {
-    background-color: green;
+    background-color: #59e759;
 }
 
 .bg-orange {
@@ -42,4 +39,14 @@
 
 .height-100 {
     height: 100px;
+}
+
+.margin-10 {
+    margin: 15px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
