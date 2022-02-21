@@ -1,0 +1,23 @@
+/*** Generics ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*** 12-col ***/
