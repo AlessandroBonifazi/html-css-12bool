@@ -41,12 +41,34 @@
     height: 100px;
 }
 
-.margin-10 {
+.width-100 {
+    width: 100%;
+}
+.margin-15 {
     margin: 15px;
+}
+
+.margin-top {
+    margin-top: 15px;
 }
 
 .center {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    align-items: flex-end;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
 }
