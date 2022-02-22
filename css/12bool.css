@@ -9,6 +9,12 @@
     flex: 0 0 auto;
 }
 
+[class*="col-"] > [class*="col-"]::after {
+    content: "Error";
+    color: red;
+    display: inline-block;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -18,6 +24,22 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.col-left {
+    align-self: flex-start;
+}
+
+.col-right {
+    align-self: flex-end;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 /*** col ***/
